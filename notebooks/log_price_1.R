@@ -109,10 +109,12 @@ for (p in 4:ncol(file_test)) {
   result_cv <- cvm.test(alfa_6)
   list_5 <- append(list_5 , result_cv$p.value)
   
-  df_5 <- data.frame('Anderson-Darling' , list_5 )
+  df_5 <- data.frame('Cramer-von' , list_5 )
 }
 
 colnames(df_5) <- columns_name_all
 
 #----------------------------------------------------------
 
+test_1 <- rbind(df_1 , df_2 , df_4 , df_5)
+write.csv(test_1  , 'C:/Users/cmos/Desktop/salimi/R/normality test.csv' , row.names = FALSE)
