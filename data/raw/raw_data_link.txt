@@ -1,0 +1,6 @@
+#link_to_google_drive
+#1.2 GB csv file
+#adjusted price of all stock namads of tsetmc
+#nemad_adjusted_price_14001029.csv
+
+'https://drive.google.com/file/d/1tsWw_L76ZUhfQXYH9fzauxdixhhZZ8rf/view?usp=sharing'
